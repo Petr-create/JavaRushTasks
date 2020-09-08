@@ -5,6 +5,7 @@ target/
 .idea/
 .idea
 .repository/
+.jrtc
 
 /JavaRushPlugin.properties
 /Instruction.png
@@ -18,3 +19,4 @@ target/
 /1.JavaSyntax/1.JavaSyntax.iml
 /2.JavaCore/src/com/javarush/task/task12/task1201/Условие.jrtc
 /2.JavaCore/src/com/javarush/task/task18/task1824/Условие.jrtc
+/2.JavaCore/src/com/javarush/task/task18/task1823/Условие.jrtc
