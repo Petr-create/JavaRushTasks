@@ -17,7 +17,7 @@ public class Solution {
         BufferedWriter fileWriter = new BufferedWriter(new FileWriter(fileOut));
         while (fileReader.ready()){
             String str = fileReader.readLine();
-            str = str.replaceAll("\\p{Punct}\\n", " ");
+            str = str.replaceAll("[\\p{Punct}\\n]", "");
             fileWriter.write(str);
             fileWriter.newLine();
         }
